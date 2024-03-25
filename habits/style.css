@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: #09090a;
+  color: white;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 4.8rem;
+
+  position: fixed;
+  width: 100%;
+}
+
+button {
+  padding: 1.6rem 2.4rem;
+  border-radius: 0.8rem;
+  border: 0.1rem solid #8b5cf6;
+  background-color: transparent;
+  color: white;
+
+  display: flex;
+  align-items: center;
+
+  gap: 1.2rem;
+
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 125%;
+}
+
+#form-habits {
+  display: flex;
+  padding: 18.2rem 4.8rem 4.8rem;
+  width: fit-content;
+}
+.habits {
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+
+  gap: 2.4rem;
+}
+.habit {
+  width: 6.4rem;
+  height: 6.4rem;
+
+  font-size: 3.2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.days {
+  display: flex;
+  margin-left: 3.2rem;
+  gap: 4.8rem;
+}
+
+.day {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.day div {
+  margin-bottom: 0.8rem;
+
+  font-family: "Roboto mono";
+  font-size: 2rem;
+  line-height: 125%;
+
+  color: #a1a1aa;
+
+  text-align: center;
+}
+
+input {
+  appearance: none;
+  -webkit-appearance: none;
+
+  width: 6.4rem;
+  height: 6.4rem;
+
+  border: 0.2rem solid #27272a;
+  border-radius: 0.8rem;
+
+  background: #18181b;
+}
+
+/*pseudo-selector*/
+input:checked {
+  background: #8b5cf6;
+  border: 0.2rem solid #a78bfa;
+}
+
+@media (max-width: 57rem) {
+  button div {
+    display: none;
+  }
+}
+
+#countdown {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+#countdown span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5rem;
+  height: 5rem;
+  border: 0.1rem solid #fff;
+  border-radius: 0.5rem;
+  margin: 0 0.5rem;
+}
+
+/* Estilização do contêiner de notificações */
+#notification-container {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  top: 1%;
+}
+
+/* Estilização básica das notificações */
+.notification {
+  min-width: 25rem;
+  padding: 1.5rem;
+  border-radius: 0.8rem;
+  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.4rem;
+  color: #fff;
+  font-family: "Inter";
+  font-weight: 600;
+}
+
+/* Estilizações específicas para tipos de notificações */
+.notification-success {
+  background: #8b5cf6;
+  border: 0.2rem solid #a78bfa;
+}
+
+.notification-error {
+  background: #8b5cf6;
+  border: 0.2rem solid #a78bfa;
+}
+
+.notification-info {
+  background: #8b5cf6;
+  border: 0.2rem solid #a78bfa;
+}
+
+/* Animação opcional para quando a notificação é adicionada */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(5rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.notification {
+  animation: slideIn 0.5s ease-out;
+}
