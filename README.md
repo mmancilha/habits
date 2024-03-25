@@ -1,7 +1,7 @@
 <h1 align="center"> DevLinks </h1>
 
 <p align="center">
-Projeto desenvolvidorograma exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB. <br/>
+Projeto desenvolvido exclusivo, promovido pela Rocketseat para ensino de tecnologias WEB. <br/>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -31,7 +31,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O projeto habits é um site/aplicativo para ajudar a rastrer os hábitos.
+O projeto habits é um site/aplicativo para ajudar a rastrer os hábitos pessoais.
 
 ## 🔖 Layout
 
