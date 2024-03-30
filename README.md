@@ -33,6 +33,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O projeto habits é um site/aplicativo para ajudar a rastrer os hábitos pessoais.
 
+- [Visite o projeto online] (https://mmancilha.github.io/habits/)
+
 ## 🔖 Layout
 
 Você pode visualizar o layout do projeto através [DESSE LINK](<https://www.figma.com/file/RhXC6Yk9E5roBGtkF3Wjmk/Habits-(e)-(Community)?type=design&node-id=75-567&mode=design&t=hSjS2g5UTk6mO3OH-0>). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
