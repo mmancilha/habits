@@ -33,7 +33,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O projeto habits é um site/aplicativo para ajudar a rastrer os hábitos pessoais.
 
-- [Visite o projeto online] (https://mmancilha.github.io/habits/)
+- [Visite o projeto online](https://mmancilha.github.io/habits)
 
 ## 🔖 Layout
 
